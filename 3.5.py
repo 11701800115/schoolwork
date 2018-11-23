@@ -1,33 +1,5 @@
-from turtle import *
-setup(600,600,200,200)
-def staght(l):
-    for i in range(l):
-        fd(10)
-        penup()
-        fd(10)
-        pendown()
-penup()
-goto(-105,0)
-pendown()
-staght(11)
-penup()
-goto(-105,100)
-pendown()
-staght(11)
-penup()
-goto(-105,-100)
-pendown()
-staght(11)
-penup()
-goto(-100,105)
-right(90)
-pendown()
-staght(11)
-penup()
-goto(100,105)
-pendown()
-staght(11)
-penup()
-goto(0,105)
-pendown()
-staght(11)
+for i in range(11):
+    if i in [0,5,10]:
+        print("+ - - - - + - - - - +")
+    else:
+        print("|         |         |")

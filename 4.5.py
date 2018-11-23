@@ -1,13 +1,17 @@
+from random import *
 n=0
-
-    
+c=randint(0,100)  
 while True:
-    b=eval(input("请输入0到9之间的整数："))
-    if b >6:
+    try:
+        b=int(input("请输入0到100之间的整数："))
+    except ValueError:
+        print ("输入错误，请输入一个整数！")
+        continue
+    if b >c:
         print("遗憾，太大了。")
         n=n+1
         
-    elif b<6:
+    elif b<c:
         print("遗憾，太小了。")
         n=n+1
         

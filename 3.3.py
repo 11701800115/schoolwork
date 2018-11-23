@@ -15,8 +15,4 @@ for i in range(365):
         dayup=dayup
      while i %15 in [0]:
        break
-print("15天:{:.2f}.".format (dayup))        
-        
-        
-   
-   
+print("15天:{:.2f}.".format (dayup)) 

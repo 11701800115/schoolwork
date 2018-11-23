@@ -15,3 +15,8 @@ t.pendown()
 for i in range (3):
     t.fd(150)
     t.right(120)
+t.seth(0)
+t.penup()
+t.fd(-100*(3**(1/2)))
+t.seth(30)
+t.fd(50)
